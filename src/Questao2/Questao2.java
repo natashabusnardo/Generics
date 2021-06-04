@@ -62,7 +62,7 @@ public class Questao2<V> {
 		}
 	}
 
-	public static Date StrTodate(String pDate) {
+	public static Date StrToDate(String pDate) {
 
 		SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -98,8 +98,8 @@ public class Questao2<V> {
 		this.produto = produto;
 		this.id = id;
 		this.valor = valor;
-		this.dataFabricacao = StrTodate(dataFabricacao);
-		this.dataVencimento = StrTodate(dataVencimento);
+		this.dataFabricacao = StrToDate(dataFabricacao);
+		this.dataVencimento = StrToDate(dataVencimento);
 	}
 
 }
